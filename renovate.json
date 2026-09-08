@@ -3,7 +3,7 @@
   "extends": ["config:best-practices", ":pinDevDependencies", ":enablePreCommit"],
   "packageRules": [
     {
-      "matchRegistryUrls": ["**quay.io/**"],
+      "matchRegistryUrls": ["https://quay.io/**"],
       "pinDigests": false
     }
   ]
